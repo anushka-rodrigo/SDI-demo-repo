@@ -61,13 +61,16 @@ Data for this project is collected through a combination of:
 
 2. Install required R package:
 
-       install.packages("readxl")
+   ```bash
+   install.packages("readxl")
    
 3.Set your working directory in RStudio to the folder location of the repository:
-  
-      setwd("path/to/SDI-demo-repo")
+
+    ```bash
+    setwd("path/to/SDI-demo-repo")
   
 4. Open and run the R scripts in your preferred R environment (e.g., RStudio)
+
 
 
 
