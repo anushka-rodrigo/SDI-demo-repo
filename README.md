@@ -68,9 +68,10 @@ Data for this project is collected through a combination of:
 
 4. Set your working directory in RStudio to the folder location of the repository:
 
-  ```bash
+    ```bash
     setwd("path/to/SDI-demo-repo")
-  ```
+    ```
+
 
 
 
