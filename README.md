@@ -66,11 +66,12 @@ Data for this project is collected through a combination of:
    ```bash
    install.packages("readxl")
 
-4.Set your working directory in RStudio to the folder location of the repository:
+4. Set your working directory in RStudio to the folder location of the repository:
 
   ```bash
     setwd("path/to/SDI-demo-repo")
   ```
+
 
 
 
