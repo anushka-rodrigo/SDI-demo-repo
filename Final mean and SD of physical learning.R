@@ -16,10 +16,10 @@ df$RowTotal <- rowSums(df[ , ], na.rm = TRUE)
 
 # Calculate the mean of the last column
 mean_last_col <- mean(df[[ncol(df)]], na.rm = TRUE)
-meanOnline <- round(mean_last_col, 2)
+meanPhysical <- round(mean_last_col, 2)
 
 #add new row to calc the SD
-df$SquaredDeviation <- (df$RowTotal-meanOnline)^2
+df$SquaredDeviation <- (df$RowTotal-meanPhysical)^2
 df$SquaredDeviation <- round(df$SquaredDeviation,4)
 
 #SD calc
