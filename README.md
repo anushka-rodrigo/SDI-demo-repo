@@ -36,11 +36,18 @@ Data for this project is collected through a combination of:
 ## Project Structure
 
 - **R Scripts**:  
-  - Scripts for analyzing performance, computing weighted means, and performing statistical tests.  
+  - Scripts for analyzing performance, computing weighted means, and performing statistical tests.
+  - `Impact in online learning.R` - grand mean regarding impact students face in online learning.
+  - `Impact in physical learning.R` - grand mean regarding impact students face in physical learning.
+  - `Challenges in online learning.R` - grand mean regarding challenges students face in online learning.
+  - `Challenges in physical learning.R` - grand mean regarding challenges students face in physical learning.
+  - `Final mean and SD of online learning.R` - Final calculations in online learning used for hypothesis testing.
+  - `Final mean and SD of physical learning.R` - Final calculations in physical learning  used for hypothesis testing.
+  - `Hypothesis testing.R` - Performs hypothesis test for the dataset.
 
 - **Data Files**:  
   - `Sample_Responses` - Survey responses used for analysis.
-  - `Questionaire_calculations.xlsx` – Survey responses used for analysis with calculations through excel functions.
+  - `Questionaire_calculations.xlsx` – Survey responses used for analysis with calculations through excel functions (for references).
 
 ---
 
@@ -57,4 +64,5 @@ Data for this project is collected through a combination of:
        install.packages(c("readxl", "dplyr", "ggplot2"))
 
 3. Open and run the R scripts in your preferred R environment (e.g., RStudio)
+
 
