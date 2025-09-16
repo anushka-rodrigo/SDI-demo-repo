@@ -1,13 +1,14 @@
-#install package if not installed
+#install package if not installed and set working directory if not set
 install.packages("readxl")
+setwd("C:/Users/USER/Downloads/SDI grp project") #put your file location
 
 library(readxl)
 
 # Read the data
 df <- read_excel(
-  "Questionaire_calculations.xlsx",
+  "Sample_Responses.xlsx",
   sheet = "Initial Response Calc",
-  range="K2:N12"
+  range="F2:I12"
 )
 
 # Define weights (order must match columns)
@@ -31,3 +32,10 @@ cat(weighted_means_rounded, sep = "\n")
 grand_mean <- round(mean(unlist(weighted_means)), 2)
 cat("Grand mean for challenges in online learning is", grand_mean) 
 
+#grand mean evaluation
+if (grand_mean<2.45){
+  result <- "Negative"
+} else {
+  result <- "Positive"
+}
+cat("We can interpret the grand mean as ", result)
