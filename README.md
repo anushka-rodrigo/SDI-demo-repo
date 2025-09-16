@@ -39,7 +39,8 @@ Data for this project is collected through a combination of:
   - Scripts for analyzing performance, computing weighted means, and performing statistical tests.  
 
 - **Data Files**:  
-  - `Questionaire_calculations.xlsx` – Survey responses used for analysis.  
+  - `Sample_Responses` - Survey responses used for analysis.
+  - `Questionaire_calculations.xlsx` – Survey responses used for analysis with calculations through excel functions.
 
 ---
 
@@ -56,3 +57,4 @@ Data for this project is collected through a combination of:
        install.packages(c("readxl", "dplyr", "ggplot2"))
 
 3. Open and run the R scripts in your preferred R environment (e.g., RStudio)
+
