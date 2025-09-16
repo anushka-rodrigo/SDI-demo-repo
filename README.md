@@ -59,10 +59,15 @@ Data for this project is collected through a combination of:
    git clone https://github.com/anushka-rodrigo/SDI-demo-repo.git
    cd SDI-demo-repo
 
-2. Install required R packages:
+2. Install required R package:
 
-       install.packages(c("readxl", "dplyr", "ggplot2"))
+       install.packages("readxl")
+   
+3.Set your working directory in RStudio to the folder location of the repository:
+  
+    setwd("path/to/SDI-demo-repo")
+  
+4. Open and run the R scripts in your preferred R environment (e.g., RStudio)
 
-3. Open and run the R scripts in your preferred R environment (e.g., RStudio)
 
 
