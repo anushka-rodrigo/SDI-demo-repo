@@ -71,6 +71,15 @@ Data for this project is collected through a combination of:
     ```bash
     setwd("path/to/SDI-demo-repo")
     ```
+    
+## Execution Notes
+
+- Most R scripts in this repository can be run independently.  
+- However, **`Hypothesis testing.R`** requires that you run the following scripts first:  
+  1. `Final mean and SD of online learning.R`  
+  2. `Final mean and SD of physical learning.R`  
+
+  These scripts generate the required outputs which are then used as inputs for the hypothesis testing.
 
 
 
